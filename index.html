@@ -1,0 +1,77 @@
+<!--Made with html, css, and love by Vinay <3-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Viswanathan</title>
+    <meta name="description" content="Welcome to my website. A bit about me: I was born in San Jose, California, but moved to and reside near Princeton, New Jersey. I’m currently a student at Washington University in St. Louis pursuing a degree in Computer Science." >
+    <meta name="author" content="Vinay Viswanathan">
+    <link rel="shorcut icon" href="other/favicon.png">
+
+    <meta property="og:image" content="other/favicon.jpg">
+    <meta property="og:description" content="About Vinay Viswanathan">
+    <meta property="og:title" content="Vinay Viswanathan">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+    var index=0;
+    function changeBanner(){ 
+       document.getElementById("twitter").style.visibility = "visible";
+      [].forEach.call(document.images,function (v,i) {
+          if( i < 4 ) {
+           document.images[i].hidden = i!==index} });
+      index = (index+1) % document.images.length;
+      if( index > 3 ) {
+          index = 0;
+      }
+    }
+    window.onload = function () {setInterval(changeBanner, 4000)};
+  </script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="information">
+                <h1 class="greeting">Hey, I'm</h1><h1> Vinay!</h1>
+                <div class="space">
+                </div>  
+                <p>Welcome to my website. A bit about me: I was born in San Jose, California, but moved to and reside near Princeton, New Jersey. I’m currently a student at Washington University in St. Louis pursuing a degree in Computer Science. </p>
+                <br>
+                <p>When I’m not furiously hacking away at cs problem sets and thinking about big-O, I love to spend time hiking outdoors, going to the gym, playing guitar, longboarding, and of course playing video games. </p>
+                <br>
+                <p>Contact me: <a href="mailto:visvinay821@gmail.com?subject=Inquiry" target="_blank">visvinay821@gmail.com</a>. You can find all of my personal links (including my github and resume) at the bottom of the screen.</p>
+                <br>
+                <p class="end">-Vinay Viswanathan 2021 🤠💻  </p>  
+                </p>
+            </div>
+            <div id="wrapper">
+                <img src="images/Sitting.JPG" width=400px height=500px >
+                <img src="images/Hiking.JPG" width=400px height=500px hidden>
+                <img src="images/Bunny.JPG" width=400px height=500px hidden>
+                <img src="images/Suit.JPG" width=400px height=500px hidden>
+            </div>
+        </div>
+        <div id="background-images">
+                <img class="html" src="other/html.png">
+                <!--<img class="head" src="other/head.png">
+                <img class="headend" src="other/headend.png">-->
+                <img class="body" src="other/body.png">
+                <img class="div" src="other/div.png">
+                <img class="divend" src="other/divend.png">       
+                <img class="bodyend" src="other/bodyend.png">       
+                <img class="htmlend" src="other/htmlend.png">       
+                <!--<img class="java" src="other/java.png">       
+                <img class="python" src="other/python.png">-->
+        </div>
+     </div>
+
+    <div class="foot"> 
+
+            <div><a href="https://twitter.com/VinayV821" target="_blank"><img id="twitter" src="other/twitter.svg" width="20px" height="20px"></div>
+            <div><a href="https://www.linkedin.com/in/vinay-viswanathan/" target="_blank" ><img src="other/linkedin.svg" width="20px" height="20px"></div>
+            <div><a href="https://github.com/vinayvis821" target="_blank"><img src="other/github.svg" width="20px" height="20px"></div>
+            <div> <a href="Vinay-Viswanathan-Resume.pdf" target="_blank"><img src="other/resume.svg" width="20px" height="20px"></div>
+    </div>
+</body>
+</html>

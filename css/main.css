@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: #fff;
+    color:000;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    position: relative;
+}
+
+.container {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+	overflow: hidden;
+}
+
+.information {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.information h1 {
+    font-size: 7vw;
+    font-weight: 600;
+    text-overflow: unset;
+    padding: 0;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    z-index:100;
+}
+
+.information p {
+    font-weight: 400;
+    font-size: 1.3vw;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    word-spacing: 0.3em;
+    z-index:100;
+}
+
+.information p .end {
+    padding-bottom: 0;;
+}
+
+#wrapper {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+#wrapper img {
+    box-shadow: 2px 2px 7px black;
+    width: 30vw;
+    height: 38vw;
+    z-index:200;
+}
+
+.foot {
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+    z-index:200;
+}
+
+.foot img {
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+
+#background-images {
+    position: absolute;
+    z-index:10;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.html{
+    position: absolute;
+    top: 2vw;
+    left: 1.2vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+/*.head {
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    z-index: 0;
+    width: 6vw;
+}
+
+.headend {
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    z-index: 0;
+    width: 6vw;
+}*/
+
+.body {
+    position: absolute;
+    top: 7vw;
+    left: 2.3vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+.div {
+    position: absolute;
+    top: 13vw;
+    left: 3.5vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+.divend {
+    position: absolute;
+    top: 37vw;
+    left: 3.5vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+.bodyend {
+    position: absolute;
+    top: 43vw;
+    left: 2.3vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+.htmlend {
+    position: absolute;
+    top: 48vw;
+    left: 1.2vw;
+    z-index: 0;
+    width: 6vw;
+}
+
+/*.java {
+    position: absolute;
+    top: 3vw;
+    right: 5vw;
+    z-index: 0;
+    width: 9vw;
+}
+
+.python {
+    position: absolute;
+    top: 45vw;
+    right: 5vw;
+    z-index: 0;
+    width: 9vw;
+}*/
+
