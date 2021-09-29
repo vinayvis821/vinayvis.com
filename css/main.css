@@ -27,32 +27,50 @@ a {
 	overflow: hidden;
 }
 
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 50% 50%; 
+    grid-gap: 50px;
+}
+
+@media (max-width: 875px ) {
+    .grid-container {
+        display: block;
+        
+    }
+    #wrapper {
+        /*padding: 10px 0;
+        padding-top: 50px;*/
+        margin-top: 0px;
+        box-sizing: border-box;
+    }
+}
+
 .information {
-    float: right;
-    width: 50%;
-    padding: 10px;
+    margin: 10px;
     box-sizing: border-box;
 }
 
 .information h1 {
-    font-size: 7vw;
+    font-size: 6em;
     font-weight: 600;
     text-overflow: unset;
     padding: 0;
     margin-bottom: 40px;
     padding-bottom: 20px;
-    z-index:100;
+    line-height: 90px;
 }
 
 .information p {
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.2em;
     margin: 0;
     padding: 0;
-    padding-bottom: 20px;
+    margin-bottom: 2px;
     line-height: 1.2em;
     word-spacing: 0.3em;
     z-index:100;
+    
 }
 
 .information p .end {
@@ -60,27 +78,26 @@ a {
 }
 
 #wrapper {
-    float: end;
-    width: 50%;
-    padding: 10px 0;
-    padding-top: 50px;
+    /*padding: 10px 0;
+    padding-top: 50px;*/
+    margin-top: 60px;
     box-sizing: border-box;
 }
 
 #wrapper img {
-    box-shadow: 2px 2px 7px black;
-    width: 36vw;
-    height: 44vw;
-    z-index:200;
+    /*box-shadow: 2px 2px 7px black;*/
+    width: 31em;
+    height: 38em;
+    overflow: scroll;
 }
 
 .foot {
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 0;
+	margin-bottom: 15px;
     z-index:200;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .foot img {
